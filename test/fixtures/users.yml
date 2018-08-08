@@ -1,0 +1,27 @@
+me:
+  name: Me Example
+  email: exampleuser@laptop.asus
+  password_digest: <%= User.digest("password") %>
+  admin: true
+
+you:
+  name: Your Sterling
+  email: duck@laptop.asus
+  password_digest: <%= User.digest("password") %>
+
+lala:
+  name: Lala Kaka
+  email: hands@example.gov
+  password_digest: <%= User.digest("password") %>
+
+maladara:
+  name: Malory Amacha
+  email: boss@example.gov
+  password_digest: <%= User.digest("password") %>
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name:  <%= "User #{n+17}" %>
+  email: <%= "user-17#{n}@example.com" %>
+  password_digest: <%= User.digest("password") %>
+<% end %>
