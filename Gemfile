@@ -1,10 +1,11 @@
 source "https://rubygems.org"
 
+gem "bootsnap", ">= 1.1.0", require: false
 gem "coffee-rails", "4.2.2"
 gem "jbuilder",     "2.7.0"
 gem "jquery-rails", "4.3.1"
 gem "puma",         "3.9.1"
-gem "rails",        "5.1.6"
+gem "rails",        "5.2.1"
 gem "sass-rails",   "5.0.6"
 gem "turbolinks",   "5.0.1"
 gem "uglifier",     "3.2.0"
