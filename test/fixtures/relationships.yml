@@ -1,0 +1,15 @@
+one:
+  follower: me
+  followed: lala
+
+two:
+  follower: me
+  followed: maladara
+
+three:
+  follower: lala
+  followed: me
+
+four:
+  follower: you
+  followed: me
