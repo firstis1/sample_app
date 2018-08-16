@@ -31,3 +31,14 @@
 
 en:
   hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  book_title: "Ruby on Rails Tutorial"
+  about: "About"
+  home: "Home"
+  help: "Help"
+  contact: "Contact"
+  login: "Log in"
+  signup: "Sign up"
+  signup_now: "Sign up now!"
+  news: "News"
+  welcome: "Welcome to the Sample App!"
