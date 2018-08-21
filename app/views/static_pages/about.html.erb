@@ -1,11 +1,10 @@
 <% provide :title, t("about") %>
-<h1><%= t("about") %></h1>
+<h1><%= t"about" %></h1>
 <p>
-  The <a href="http://www.railstutorial.org/">
-    <em><%= t("book_title") %></em></a> is a
-  <%= link_to "book", "http://www.railstutorial.org/book" %> and
-  <%= link_to "screencast series", "http://screencasts.railstutorial.org/" %>
+  The <%= link_to t("book_title"), "http://www.railstutorial.org/" %> is a
+  <%= link_to t("book"), "http://www.railstutorial.org/book" %> and
+  <%= link_to t("screencast_series"), "http://screencasts.railstutorial.org/" %>
   to teach web development with
-  <%= link_to "Ruby on Rails", "http://rubyonrails.org/" %>.
+  <%= link_to t("framework_name"), "http://rubyonrails.org/" %>.
   This is the sample application for the tutorial.
 </p>
